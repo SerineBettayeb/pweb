@@ -10,7 +10,7 @@
     <link rel="icon" type="image/png"  href="logo.png">
     <title>AutoNow</title>
   </head>
-  <body id="accueil">
+  <body>
     <!-- Barre de navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #383024" ><a class="navbar-brand" href="mai.html" >AutoNow</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
