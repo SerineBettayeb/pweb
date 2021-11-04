@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="Bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="icon" type="image/png"  href="logo.png">
+    <link rel="icon" type="image/png"  href="Images/logo.png">
     <title>AutoNow</title>
   </head>
-  <body id="page1">
+  <body >
       
     <!-- Barre de navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #383024" >
@@ -46,7 +46,7 @@
     
             <div class="box">
                 <div class="image">
-                    <img src="./308.jfif" alt="">
+                    <img src="Images/308.jfif" alt="">
                 </div>
                 <div class="content">
                     <a href="#" class="title">Peugeot 308 SW</a>
@@ -62,7 +62,7 @@
     
             <div class="box">
                 <div class="image">
-                    <img src="./c4.jpg" alt="">
+                    <img src="Images/c4.jpg" alt="">
                 </div>
                 <div class="content">
                     <a href="#" class="title">Citroën C4</a>
@@ -79,7 +79,7 @@
 
             <div class="box">
                 <div class="image">
-                    <img src="./audir8.jpg" alt="">
+                    <img src="Images/audir8.jpg" alt="">
                 </div>
                 <div class="content">
                     <a href="#" class="title">Audi R8</a>
@@ -95,7 +95,7 @@
             
             <div class="box">
                 <div class="image">
-                    <img src="./musstang.jfif" alt="">
+                    <img src="Images/musstang.jfif" alt="">
                 </div>
                 <div class="content">
                     <a href="#" class="title">Mustang GT350</a>
@@ -111,7 +111,7 @@
 
             <div class="box">
                 <div class="image">
-                    <img src="./911.jfif" alt="">
+                    <img src="Images/911.jfif" alt="">
                 </div>
                 <div class="content">
                     <a href="#" class="title">Porsche 911</a>
@@ -127,7 +127,7 @@
 
             <div class="box">
                 <div class="image">
-                    <img src="./urus.jfif" alt="">
+                    <img src="Images/urus.jfif" alt="">
                 </div>
                 <div class="content">
                     <a href="#" class="title">Lamborghini urus</a>
