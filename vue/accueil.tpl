@@ -8,10 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="Bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="icon" type="image/png"  href="logo.png">
+    <link rel="icon" type="image/png"  href="Images/logo.png">
     <title>AutoNow</title>
   </head>
-  <body id="accueil">
+  <body>
     <!-- Barre de navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #383024" ><a class="navbar-brand" href="mai.html" >AutoNow</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,7 +43,7 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img  src="miaou.jpg" alt="First slide">
+          <img  src="Images/miaou.jpg" alt="First slide">
           <div class="carousel-caption">
             <h3>Audi r8</h3>
             <p>Top vente en France !</p>
@@ -52,7 +52,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img  src="mustang.jfif" alt="Second slide">
+          <img  src="Images/mustang.jfif" alt="Second slide">
           <div class="carousel-caption">
           <h3>Mustang GT350</h3>
             <p>Top vente en France !</p>
@@ -60,7 +60,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img  src="cayman.jpg" alt="Third slide">
+          <img  src="Images/cayman.jpg" alt="Third slide">
           <div class="carousel-caption">
           <h3>Porsche 911</h3>
             <p>Top vente en France !</p>
@@ -86,7 +86,7 @@
   <div class="row">
 
       <div class="image">
-          <img src="./logo.png" alt="">
+          <img src="Images/logo.png" alt="">
       </div>
 
       <div class="content">
