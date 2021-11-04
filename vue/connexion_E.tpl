@@ -18,12 +18,12 @@
       </button>
          <div class="collapse navbar-collapse" id="navbarNavDropdown">
            <ul class="navbar-nav">
-              <li class="nav-item"><a class="nav-link" href="Voiture.html">Louer ma voiture</a></li>
-              <li class="nav-item"><a class="nav-link" href="inscription.html">Créer un compte</a></li>
+              <li class="nav-item"><a class="nav-link" href="voiture.tpl">Louer ma voiture</a></li>
+              <li class="nav-item"><a class="nav-link" href="inscription.tpl">Créer un compte</a></li>
               <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Se connecter</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="connexion_E.html">Entreprise</a>
-                  <a class="dropdown-item" href="connexion_L.html">Loueur</a>
+                  <a class="dropdown-item" href="connexion_E.tpl">Entreprise</a>
+                  <a class="dropdown-item" href="connexion_L.tpl">Loueur</a>
                 </div>
               </li>
            </ul>
@@ -37,7 +37,7 @@
       <input type="text" placeholder="Pseudo" />
       <input type="password" placeholder="Mot de passe">
     </div>
-    <a class="nav-link" href="inscription.html"><p class="inscription">Je n'ai pas de <span >compte</span>. Je m'en <span>crée</span> un.</p></a>
+    <a class="nav-link" href="inscription.tpl"><p class="inscription">Je n'ai pas de <span >compte</span>. Je m'en <span>crée</span> un.</p></a>
     
     <div align="center">
       <button type="submit">Se connecter</button>
