@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="Bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" type="image/png"  href="logo.png">
     <title>AutoNow</title>
   </head>
   <body id="accueil">
@@ -19,11 +20,11 @@
          <div class="collapse navbar-collapse" id="navbarNavDropdown">
            <ul class="navbar-nav">
               <li class="nav-item"><a class="nav-link" href="Voiture.html">Louer ma voiture</a></li>
-              <li class="nav-item"><a class="nav-link" href="experience.html">Créer un compte</a></li>
+              <li class="nav-item"><a class="nav-link" href="inscription.html">Créer un compte</a></li>
               <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Se connecter</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="cine.html">Entreprise</a>
-                  <a class="dropdown-item" href="art.html">Loueur</a>
+                  <a class="dropdown-item" href="connexion_E.html">Entreprise</a>
+                  <a class="dropdown-item" href="connexion_L.html">Loueur</a>
                 </div>
               </li>
            </ul>
