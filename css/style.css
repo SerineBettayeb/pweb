@@ -1,0 +1,202 @@
+
+:root{
+    --main-color:#d3ad7f;
+    --black:#4e2703;
+    --bg:#010103;
+    --border:.1rem solid rgba(255,255,255,.3);
+}
+html{
+    font-size: 52.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+body{
+	background: url(../Images/noir.jpg) no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding:.9rem 3rem;
+    font-size: 1.7rem;
+    color:#fff;
+    background: var(--main-color);
+    cursor: pointer;
+}
+/*barre de navigation*/
+.navbar-fixed-top {
+    min-height: 80px;
+    
+}
+.navbar-brand{
+    font-size: 220%;
+} 
+.navbar-nav{
+    font-size: 200%;
+}
+.dropdown-menu{
+    font-size: 100%;
+}
+.navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 80px;
+}
+
+@media (max-width: 767px) {
+    .navbar-nav > li > a {
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+}
+/*Caroussel*/
+div.c-wrapper{
+    margin: auto;
+    width: 67%; 
+}
+.carousel-inner h3{
+    font-size: 300.5%;
+}
+.carousel-inner p{
+    font-size: 210.5%;
+}
+.carousel-inner img {   
+    max-width: 105%;
+ }
+/*toutes les voitures*/
+.article .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
+    gap:3.5rem;
+    margin-bottom: 4%;
+}
+
+.article .box-container .box{
+    border:var(--border);    
+}
+
+.article .box-container .box .image{
+    height: 25rem;
+    overflow:hidden;
+    width: 100%;
+}
+
+.article .box-container .box .image img{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.article .box-container .box:hover .image img{
+    transform: scale(1.2);
+}
+
+.article .box-container .box .content{
+    padding:2rem;
+}
+
+.article .box-container .box .content .title{
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color:#fff;
+}
+
+.article .box-container .box .content .title:hover{
+    color:var(--main-color);
+}
+
+.article .box-container .box .content span{
+    color:var(--main-color);
+    display: block;
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+    
+.article .box-container .box .content ul{
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color:#ccc;
+    padding:1rem 0;
+    text-transform: none;
+    margin-left: 5%;
+}
+/*About us de accueil*/
+.about .row{
+    align-items: center;
+    background:var(--black);
+    flex-wrap: wrap;
+}
+    
+.about .row .image{
+    flex:1 1 40rem;
+}    
+.about .row .image img{
+    width: 100%;
+}
+.about .row .content{
+    flex:4 5 45rem;
+    padding:2em;
+}
+.about .row .content h3{
+    font-size: 3rem;
+    color:#fff;
+}
+.about .row .content p{
+    font-size: 1.6rem;
+    color:#ccc;
+    padding:1rem 0;
+    line-height: 1.8;
+}
+
+/*Inscription + co*/
+form {
+    margin-top: 70px;
+    background-color: rgb(93, 87, 87);
+    padding: 60px 150px;
+    margin-left: 28%;
+    margin-right: 28%;
+    border-radius: 10px;
+    min-width: 100px;
+    font-size: 200%;
+}
+form h1{
+  color: #131212;
+  text-align:center;
+}
+form .inputs {
+  display: flex;
+  flex-direction: column;
+}
+form .inputs input[type='text'], input[type='password'], input[type='email']{
+  padding: 15px;
+  border:none;
+  border-radius: 5px;
+  background-color:#f2f2f2;
+  outline:none;
+  margin-bottom: 15px;
+}
+form p.inscription{
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #878787;
+}
+form p.inscription span{
+  color: #f1e7d2;
+}
+form button{
+  padding: 15px 25px;
+  border-radius: 5px;
+  border:none;
+  font-size: 15px;
+  color: #fff;
+  background-color: #383024;
+  outline:none;
+  cursor:pointer;
+}
