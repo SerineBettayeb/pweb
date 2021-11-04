@@ -12,18 +12,18 @@
   </head>
   <body >
     <!-- Barre de navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #383024" ><a class="navbar-brand" href="mai.html" >AutoNow</a>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #383024" ><a class="navbar-brand" href="accueil.tpl" >AutoNow</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
       </button>
          <div class="collapse navbar-collapse" id="navbarNavDropdown">
            <ul class="navbar-nav">
-              <li class="nav-item"><a class="nav-link" href="Voiture.html">Louer ma voiture</a></li>
-              <li class="nav-item"><a class="nav-link" href="inscription.html">Créer un compte</a></li>
+              <li class="nav-item"><a class="nav-link" href="voiture.tpl">Louer ma voiture</a></li>
+              <li class="nav-item"><a class="nav-link" href="inscription.tpl">Créer un compte</a></li>
               <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Se connecter</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="connexion_E.html">Entreprise</a>
-                  <a class="dropdown-item" href="connexion_L.html">Loueur</a>
+                  <a class="dropdown-item" href="connexion_E.tpl">Entreprise</a>
+                  <a class="dropdown-item" href="connexion_L.tpl">Loueur</a>
                 </div>
               </li>
            </ul>
