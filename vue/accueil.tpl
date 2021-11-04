@@ -19,12 +19,12 @@
       </button>
          <div class="collapse navbar-collapse" id="navbarNavDropdown">
            <ul class="navbar-nav">
-              <li class="nav-item"><a class="nav-link" href="Voiture.html">Louer ma voiture</a></li>
-              <li class="nav-item"><a class="nav-link" href="inscription.html">Créer un compte</a></li>
+              <li class="nav-item"><a class="nav-link" href="voiture.tpl">Louer ma voiture</a></li>
+              <li class="nav-item"><a class="nav-link" href="inscription.tpl">Créer un compte</a></li>
               <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Se connecter</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="connexion_E.html">Entreprise</a>
-                  <a class="dropdown-item" href="connexion_L.html">Loueur</a>
+                  <a class="dropdown-item" href="connexion_E.tpl">Entreprise</a>
+                  <a class="dropdown-item" href="connexion_L.tpl">Loueur</a>
                 </div>
               </li>
            </ul>
@@ -93,7 +93,7 @@
           <h3>LOCATION DE VOITURES ET DE VÉHICULES UTILITAIRES</h3>
           <p>AutoNow est une entreprise de location de voiture française. Elle est à la fois une entreprise familiale et internationale. Elle a été créee en 2021 par trois étudiants en Informatique : Nathan, Romain & Serine.</p>
           <p>Que vous ayez besoin d'une petite voiture, d’une voiture compacte ou d’un break spacieux, notre flotte vous propose des véhicules neufs, en moyenne six mois d’ancienneté, de grandes marques telles que BMW, Audi, VW et Mercedes-Benz.</p>
-          <a href="Voiture.html" class="btn">découvrir le catatlogue</a>
+          <a href="voiture.tpl" class="btn">découvrir le catatlogue</a>
       </div>
 
   </div>
