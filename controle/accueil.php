@@ -1,3 +1,7 @@
 <?php
-	require ("./vue/accueil.tpl");
+
+function promo(){
+  require("./vue/accueil.tpl");
+}
+
 ?>
