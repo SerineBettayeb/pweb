@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="fr">
   <head>
-    
+
     <!-- Menu en Bootstrap-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -12,40 +12,40 @@
   </head>
   <body >
     <!-- Barre de navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #383024" ><a class="navbar-brand" href="accueil.tpl" >AutoNow</a>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #383024" ><a class="navbar-brand" href="http://localhost/rentCar/index.php" >AutoNow</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
       </button>
          <div class="collapse navbar-collapse" id="navbarNavDropdown">
            <ul class="navbar-nav">
-              <li class="nav-item"><a class="nav-link" href="voiture.tpl">Louer ma voiture</a></li>
-              <li class="nav-item"><a class="nav-link" href="inscription.tpl">Créer un compte</a></li>
+              <li class="nav-item"><a class="nav-link" href="http://localhost/rentCar/index.php?controle=inscription&action=inscription">Créer un compte</a></li>
               <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Se connecter</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="connexion_E.tpl">Entreprise</a>
-                  <a class="dropdown-item" href="connexion_L.tpl">Loueur</a>
+                  <a class="dropdown-item" href="http://localhost/rentCar/index.php?controle=connexion_E&action=connexion">Entreprise</a>
+                  <a class="dropdown-item" href="http://localhost/rentCar/index.php?controle=connexion_L&action=connexion">Loueur</a>
                 </div>
               </li>
            </ul>
          </div>
     </nav>
-  <form>
-     
+
+  <form action="http://localhost/rentCar/controle/inscription.php" method="post">
     <h1>S'INSCRIRE</h1>
     <br>
     <div class="inputs">
-      <input type="text" placeholder="Nom" />  
-      <input type="email" placeholder="Email" />
-      <input type="text" placeholder="Pseudo" />
-      <input type="text" placeholder="Nom de l'entreprise" />
-      <input type="password" placeholder="Mot de passe">
+      <input name="nom" type="text" placeholder="Nom" />
+      <input name="email" type="text" placeholder="Email" />
+      <input name="pseudo" type="text" placeholder="Pseudo" />
+      <input name="nomE" type="text" placeholder="Nom de l'entreprise" />
+      <input name="mdp" type="text" placeholder="Mot de passe">
     </div>
-    
+
     <p class="inscription">En créant votre compte, vous acceptez nos <span>termes </span>& <span>conditions</span> & <span></span><span>politique de confidentialité.</span></p>
     <div align="center">
       <button type="submit">S'inscrire</button>
     </div>
   </form>
+
 </body>
 <script src="js/script.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
