@@ -6,6 +6,6 @@
       $controle = $_GET["controle"];
       $action = $_GET["action"];
   }
-  require("./controllers/$controle.php");
+  require("./controle/$controle.php");
   $action();
 ?>
