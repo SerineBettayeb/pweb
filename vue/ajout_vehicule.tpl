@@ -12,7 +12,7 @@
   </head>
   <body>
     <!-- Barre de navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #383024" ><a class="navbar-brand" href="mai.html" >AutoNow</a>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #383024" ><a class="navbar-brand" href="accueil.tpl" >AutoNow</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
       </button>
@@ -20,16 +20,16 @@
            <ul class="navbar-nav">
               <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mon espace</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="connexion_E.html">Facture</a>
-                  <a class="dropdown-item" href="voiture_L.html">Mes voitures</a>
+                  <a class="dropdown-item" href="#">Facture</a>
+                  <a class="dropdown-item" href="voiture_L.tpl">Mes voitures</a>
                   <a class="dropdown-item" href="#">Ajouter un véhicule</a>
                 </div>
               </li>
            </ul>
          </div>
          <div class="connecter">
-          <a href="mai.html">
-            <button type="button" class="btn btn-dark" href="mai.html">Se déconnecter</button>
+          <a href="accueil.tpl">
+            <button type="button" class="btn btn-dark" href="accueil.tpl">Se déconnecter</button>
           </a>
          </div>
     </nav>
