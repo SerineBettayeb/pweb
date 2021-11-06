@@ -14,19 +14,19 @@
   <body >
       
     <!-- Barre de navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #383024" ><a class="navbar-brand" href="mai.html" >AutoNow</a>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #383024" ><a class="navbar-brand" href="accueil.tpl" >AutoNow</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
            <div class="collapse navbar-collapse" id="navbarNavDropdown">
              <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="Voiture.html">Catalogue</a></li>
+                <li class="nav-item"><a class="nav-link" href="Voiture.tpl">Catalogue</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Mes voitures</a></li>
-                <li class="nav-item"><a class="nav-link" href="panier.html">Panier</a></li>
+                <li class="nav-item"><a class="nav-link" href="panier.tpl">Panier</a></li>
              </ul>
            </div>
            <div class="connecter">
-            <a href="mai.html">
+            <a href="accueil.tpl">
                <button type="button" class="btn btn-dark">Se déconnecter</button>
            </a>
        </div>
