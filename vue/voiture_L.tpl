@@ -20,7 +20,7 @@
            <ul class="navbar-nav">
               <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mon espace</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="#">Facture</a>
+                  <a class="dropdown-item" href="facture.tpl">Facture</a>
                   <a class="dropdown-item" href="#">Mes voitures</a>
                   <a class="dropdown-item" href="ajout_vehicule.tpl">Ajouter un véhicule</a>
                 </div>
