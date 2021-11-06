@@ -83,6 +83,50 @@ div.c-wrapper{
 .carousel-inner img {   
     max-width: 105%;
  }
+/*Voitures unités*/
+.voitureUnite .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
+    gap:3.5rem;
+    margin-bottom: 4%;
+}
+.voitureUnite .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
+    gap:3.5rem;
+    margin-bottom: 4%;
+}
+.voitureUnite .box-container .box{
+    border:var(--border);
+}
+.voitureUnite .box-container.box .image{
+    height: 25rem;
+    overflow:hidden;
+    width: 10%;
+}
+.voitureUnite .box-container.box .image img{
+    height: 10%;
+    width: 10%;
+}
+.voitureUnite .box-container .box .content .title:hover{
+    color:var(--main-color);
+}
+
+.voitureUnite .box-container .box .content span{
+    color:var(--main-color);
+    display: block;
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+    
+.voitureUnite .box-container .box .content ul{
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color:#ccc;
+    padding:1rem 0;
+    text-transform: none;
+    margin-left: 5%;
+}
 /*toutes les voitures*/
 .article .box-container{
     display: grid;
@@ -361,5 +405,5 @@ form button{
 /*voiture louer mes voitures*/
 
 .h8{
-    color: rgb(154, 71, 71);
+    color: rgb(96, 51, 31);
 }
