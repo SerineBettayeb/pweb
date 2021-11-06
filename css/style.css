@@ -20,6 +20,9 @@ body{
     background-attachment: fixed;
     background-position: center;
 }
+body#facture{
+    background:rgb(162, 133, 123);
+}
 
 .connecter .btn{
     margin-top: 1rem;
@@ -196,7 +199,7 @@ div.c-wrapper{
     margin-left: 5%;
 }
 .heading{
-    color: white;
+    color: rgb(57, 35, 2);
     font-size: 400%;
     margin-top: 6%;
 }
@@ -290,8 +293,26 @@ form button{
   outline:none;
   cursor:pointer;
 }
+.table{
+    margin-top: 110px;
+    color: rgb(57, 35, 2);
+    font-size: 17px;
+}
+.total{
+    margin-top: -4%;
+    margin-left: 70%;
+}
+.form-controll{
+    margin-top: 20%;
+    background-color: rgb(84, 59, 59);
+    font-size: 17px;
+    margin-left: 17%;
+    margin-right: 10%;
 
-/*Essai panier*/
+
+}
+
+/*essaie*/
 @media (min-width: 1025px) {
     .h-custom {
     height: 100vh !important;
@@ -326,3 +347,5 @@ form button{
     border-bottom-right-radius: 16px;
     }
     }
+
+
