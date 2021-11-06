@@ -141,15 +141,15 @@ div.c-wrapper{
     margin-left: 5%;
 }
 /*Voiture loueur*/
-.article .box-containerr{
+.article .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
     gap:3.5rem;
     margin-bottom: 4%;
-    margin-top: 5%;
+    margin-top: 1%;
 }
 
-.article .box-containerr .box{
+.article .box-container .box{
     border:var(--border);    
 }
 
@@ -159,38 +159,38 @@ div.c-wrapper{
     width: 100%;
 }
 
-.article .box-containerr .box .image img{
+.article .box-container .box .image img{
     height: 100%;
     object-fit: cover;
     width: 100%;
 }
 
-.article .box-containerr .box:hover .image img{
+.article .box-container .box:hover .image img{
     transform: scale(1.2);
 }
 
-.article .box-containerr .box .content{
+.article .box-container .box .content{
     padding:2rem;
 }
 
-.article .box-containerr .box .content .title{
+.article .box-container .box .content .title{
     font-size: 2.5rem;
     line-height: 1.5;
     color:#fff;
 }
 
-.article .box-containerr .box .content .title:hover{
+.article .box-container .box .content .title:hover{
     color:var(--main-color);
 }
 
-.article .box-containerr .box .content span{
+.article .box-container .box .content span{
     color:var(--main-color);
     display: block;
     padding-top: 1rem;
     font-size: 2rem;
 }
     
-.article .box-containerr .box .content ul{
+.article .box-container .box .content ul{
     font-size: 1.6rem;
     line-height: 1.8;
     color:#ccc;
@@ -311,11 +311,18 @@ form button{
 
 
 }
+.valider{
+    font-size: 11px;
+    color: rgb(88, 55, 5);
+    margin: auto;
 
-/*essaie*/
+}
+
+/*panier*/
 @media (min-width: 1025px) {
     .h-custom {
     height: 100vh !important;
+
     }
     }
     
@@ -331,7 +338,7 @@ form button{
     }
     
     .bg-grey {
-    background-color: #eae8e8;
+    background-color: rgb(162, 133, 123);
     }
     
     @media (min-width: 992px) {
@@ -348,4 +355,11 @@ form button{
     }
     }
 
+.container{
+    color: black;
+}
+/*voiture louer mes voitures*/
 
+.h8{
+    color: rgb(154, 71, 71);
+}
